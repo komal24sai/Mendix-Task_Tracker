@@ -1,1 +1,137 @@
 @import "custom-variables";
+// 💠 Page Background
+.page-background {
+  background-color: #f8faff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+// 🔷 Task Card Wrapper
+.task-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+// 🟦 Section Title
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1c1c1c;
+}
+
+// 🎯 Status Filter Dropdown
+.status-filter {
+  width: 220px;
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+
+// 🔘 Buttons
+.button-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0 8px;
+  border: none;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.button-primary:hover {
+  background-color: #0056b3;
+  color: #ffffff !important;  // Make sure text stays white
+  cursor: pointer;
+}
+
+
+// 🧾 Data Grid Styling
+.mx-datagrid {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.mx-datagrid .mx-datagrid-body-table {
+  background-color: #ffffff;
+}
+
+.mx-datagrid .mx-datagrid-body-table tr:hover {
+  background-color: #e6f0ff;
+}
+
+.mx-datagrid .mx-datagrid-body-table td {
+  padding: 10px 16px;
+  font-size: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mx-datagrid .mx-datagrid-head-table th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+  padding: 10px 16px;
+  color: #333;
+  font-size: 14px;
+}
+
+// 🔙 Back Button Styling
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+// Optional: icon spacing if using an icon
+.back-button .mx-icon {
+  margin-right: 8px;
+}
+
+// 💡 Beautiful primary CTA button
+.task-cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #4f9de6, #0062cc);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 98, 204, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.task-cta-button:hover {
+  background: linear-gradient(135deg, #3a8bd3, #004a9e);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 98, 204, 0.3);
+}
+
+.task-cta-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 10px rgba(0, 98, 204, 0.2);
+}
